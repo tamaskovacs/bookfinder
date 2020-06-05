@@ -4,10 +4,10 @@
     width: 100%;
     margin: 0 auto;
     border-radius: 5px;
-    border: 1px solid #babbae;
+    border: 1px solid var(--secondary-bg-color);
 }
 .search-header{
-    background-color: var(--maize-crayola);
+    background-color: var(--tertiary-bg-color);
     height: 80px;
     display: flex;
     justify-content: center;
@@ -16,9 +16,9 @@
 }
 .search-result-area {
     min-height: 80vh;
-    background-color: var(--gainsboro);
+    background-color: var(--primary-bg-color);
 }
 .error-text{
-    color: red;
+    color: var(--error-color);
     font-size: xx-large;
 }

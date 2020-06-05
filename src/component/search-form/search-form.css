@@ -12,8 +12,8 @@
     border: none;
     border-radius: 5px;
     padding: 5px;
-    color: var(--maize-crayola);
-    background-color: var(--jet);
+    color: var(--tertiary-bg-color);
+    background-color: var(--quinary-bg-color);
 }
 .search-input {
     font-size: 20px;

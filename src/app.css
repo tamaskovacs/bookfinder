@@ -1,17 +1,29 @@
 html {
-  --gainsboro: hsla(150, 5%, 86%, 1);
-  --ivory: hsla(81, 6%, 93%, 1);
-  --maize-crayola: hsla(44, 62%, 96%, 1);
-  --raisin-black: hsla(60, 3%, 14%, 1);
-  --jet: hsla(120, 4%, 21%, 1);
+  --gainsboro: rgba(207, 219, 213, 1);
+  --ivory: rgba(232, 237, 223, 1);
+  --maize-crayola: rgba(245, 203, 92, 1);
+  --raisin-black: rgba(36, 36, 35, 1);
+  --jet:  rgba(51, 53, 51, 1);
+  --dodger-blue: rgb(30, 144, 255);
+  --red: rgb(255, 0, 0);
+
+
+  --primary-bg-color: var(--gainsboro);
+  --secondary-bg-color: var(--ivory);
+  --tertiary-bg-color: var(--maize-crayola);
+  --quaternary-bg-color: var(--raisin-black);
+  --quinary-bg-color: var(--jet);
+  --senary-bg-color: var(--dodger-blue);
+  --error-color: var(--red);
+
 }
 
 .app {
   text-align: center;
-  background-color: var(--raisin-black);
+  background-color: var(--quaternary-bg-color);
 }
 .app-header {
-  background-color: var(--jet);
+  background-color: var(--quinary-bg-color);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -19,4 +31,3 @@ html {
   font-size: calc(10px + 2vmin);
   color: white;
 }
-

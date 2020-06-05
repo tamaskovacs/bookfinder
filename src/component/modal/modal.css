@@ -1,12 +1,12 @@
 .modal-container {
     width: 90%;
-    background-color: var(--maize-crayola);
+    background-color: var(--secondary-bg-color);
     border-radius: 10px;
 }
 .modal-header {
     font-size: xx-large;
     font-weight: bold;
-    background-color: var(--gainsboro);
+    background-color: var(--primary-bg-color);
     margin: 20px;
     padding:20px
 }
@@ -17,7 +17,7 @@
 .modal-footer  button{
     font-size: x-large;
     border: none;
-    background-color: dodgerblue;
+    background-color: var(--senary-bg-color);
     border-radius: 5px;
     padding: 10px;
     cursor: pointer;
