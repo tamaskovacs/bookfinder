@@ -1,0 +1,30 @@
+.table{
+	width: 100%;
+}
+
+.book-row{
+	display: flex;
+	flex-wrap: wrap;
+    min-height: 30px;
+    margin: 0 20px 5px 20px;
+    align-items: top;
+    border-bottom: 1px solid var(--raisin-black);
+}
+
+.book-cell{
+	margin: 15px;
+	text-align: left;
+	flex-basis: 0;
+	flex-grow: 1;
+    max-width: 65%;
+
+}
+.param-cell{
+	margin: 5px;
+	text-align: right;
+	flex-basis: 0;
+	flex-grow: 1;
+    max-width: 20%;
+    font-size: xx-large;
+}
+

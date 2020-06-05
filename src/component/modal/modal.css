@@ -1,0 +1,24 @@
+.modal-container {
+    width: 90%;
+    background-color: var(--maize-crayola);
+    border-radius: 10px;
+}
+.modal-header {
+    font-size: xx-large;
+    font-weight: bold;
+    background-color: var(--gainsboro);
+    margin: 20px;
+    padding:20px
+}
+.modal-footer {
+    margin: 0 20px;
+    padding: 20px
+}
+.modal-footer  button{
+    font-size: x-large;
+    border: none;
+    background-color: dodgerblue;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}

@@ -1,0 +1,407 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BookDetails />  should match the snapshot has not bookdata 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="table"
+      >
+        <div
+          class="book-row"
+        >
+          <div
+            class="param-cell"
+          >
+            Title
+          </div>
+          <div
+            class="book-cell"
+          />
+        </div>
+        <div
+          class="book-row"
+        >
+          <div
+            class="param-cell"
+          >
+            Author
+          </div>
+          <div
+            class="book-cell"
+          />
+        </div>
+        <div
+          class="book-row"
+        >
+          <div
+            class="param-cell"
+          >
+            Publish date
+          </div>
+          <div
+            class="book-cell"
+          />
+        </div>
+        <div
+          class="book-row"
+        >
+          <div
+            class="param-cell"
+          >
+            Publisher
+          </div>
+          <div
+            class="book-cell"
+          />
+        </div>
+        <div
+          class="book-row"
+          id="book-row-1"
+        >
+          <div
+            class="param-cell"
+          >
+            Subject
+          </div>
+          <div
+            class="book-cell"
+          />
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="table"
+    >
+      <div
+        class="book-row"
+      >
+        <div
+          class="param-cell"
+        >
+          Title
+        </div>
+        <div
+          class="book-cell"
+        />
+      </div>
+      <div
+        class="book-row"
+      >
+        <div
+          class="param-cell"
+        >
+          Author
+        </div>
+        <div
+          class="book-cell"
+        />
+      </div>
+      <div
+        class="book-row"
+      >
+        <div
+          class="param-cell"
+        >
+          Publish date
+        </div>
+        <div
+          class="book-cell"
+        />
+      </div>
+      <div
+        class="book-row"
+      >
+        <div
+          class="param-cell"
+        >
+          Publisher
+        </div>
+        <div
+          class="book-cell"
+        />
+      </div>
+      <div
+        class="book-row"
+        id="book-row-1"
+      >
+        <div
+          class="param-cell"
+        >
+          Subject
+        </div>
+        <div
+          class="book-cell"
+        />
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`<BookDetails />  should match the snapshot if has bookdata 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="table"
+      >
+        <div
+          class="book-row"
+        >
+          <div
+            class="param-cell"
+          >
+            Title
+          </div>
+          <div
+            class="book-cell"
+          >
+            test title
+          </div>
+        </div>
+        <div
+          class="book-row"
+        >
+          <div
+            class="param-cell"
+          >
+            Author
+          </div>
+          <div
+            class="book-cell"
+          >
+            author name
+          </div>
+        </div>
+        <div
+          class="book-row"
+        >
+          <div
+            class="param-cell"
+          >
+            Publish date
+          </div>
+          <div
+            class="book-cell"
+          >
+            2222 jan 1, 3333 dec 12
+          </div>
+        </div>
+        <div
+          class="book-row"
+        >
+          <div
+            class="param-cell"
+          >
+            Publisher
+          </div>
+          <div
+            class="book-cell"
+          >
+            any publisher, other publisher
+          </div>
+        </div>
+        <div
+          class="book-row"
+          id="book-row-1"
+        >
+          <div
+            class="param-cell"
+          >
+            Subject
+          </div>
+          <div
+            class="book-cell"
+          >
+            any subject, other subject
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="table"
+    >
+      <div
+        class="book-row"
+      >
+        <div
+          class="param-cell"
+        >
+          Title
+        </div>
+        <div
+          class="book-cell"
+        >
+          test title
+        </div>
+      </div>
+      <div
+        class="book-row"
+      >
+        <div
+          class="param-cell"
+        >
+          Author
+        </div>
+        <div
+          class="book-cell"
+        >
+          author name
+        </div>
+      </div>
+      <div
+        class="book-row"
+      >
+        <div
+          class="param-cell"
+        >
+          Publish date
+        </div>
+        <div
+          class="book-cell"
+        >
+          2222 jan 1, 3333 dec 12
+        </div>
+      </div>
+      <div
+        class="book-row"
+      >
+        <div
+          class="param-cell"
+        >
+          Publisher
+        </div>
+        <div
+          class="book-cell"
+        >
+          any publisher, other publisher
+        </div>
+      </div>
+      <div
+        class="book-row"
+        id="book-row-1"
+      >
+        <div
+          class="param-cell"
+        >
+          Subject
+        </div>
+        <div
+          class="book-cell"
+        >
+          any subject, other subject
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

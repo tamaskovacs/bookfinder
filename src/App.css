@@ -1,21 +1,17 @@
-.App {
+html {
+  --gainsboro: hsla(150, 5%, 86%, 1);
+  --ivory: hsla(81, 6%, 93%, 1);
+  --maize-crayola: hsla(44, 62%, 96%, 1);
+  --raisin-black: hsla(60, 3%, 14%, 1);
+  --jet: hsla(120, 4%, 21%, 1);
+}
+
+.app {
   text-align: center;
+  background-color: var(--raisin-black);
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app-header {
+  background-color: var(--jet);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,15 +20,3 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

@@ -1,0 +1,70 @@
+.table{
+	width: 100%;
+}
+
+.row{
+	display: flex;
+	flex-wrap: wrap;
+    background: var(--ivory);
+    min-height: 200px;
+    margin: 0 0 5px 0;
+    align-items: center;
+}
+.row:hover {
+    background-color:  var(--gainsboro);;
+  }
+
+.cover{
+    max-height: 300px;
+    width: 118px;
+}
+.cell{
+	margin: 5px;
+	text-align: center;
+	flex-basis: 0;
+	flex-grow: 1;
+	max-width: 65%;
+
+}
+
+.cover-cell{
+	margin: 0 5px;
+	text-align: center;
+	flex-basis: 0;
+	flex-grow: 1;
+	max-width: 15%;
+    background: var(--gainsboro);
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.cover-cell img {
+    border-radius: 5px;
+}
+.author-cell{
+	margin: 5px;
+    text-align: center;
+    font-size: x-large;
+}
+.title-cell{
+	margin: 5px;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+}
+.button-cell{
+	margin: 5px;
+	text-align: center;
+	flex-basis: 0;
+	flex-grow: 1;
+	max-width: 20%;
+}
+.button-cell button {
+    font-size: x-large;
+    border: none;
+    background-color: dodgerblue;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}

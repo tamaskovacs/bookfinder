@@ -1,0 +1,6 @@
+{
+    "appName":"Book finder",
+    "endpoints": {
+        "api" : "https://openlibrary.org/"
+    }
+}

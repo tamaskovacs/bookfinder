@@ -1,0 +1,22 @@
+
+.search-form {
+    width:70%;
+}
+.search-label {
+    font-size: 23px;
+    line-height: 23px;
+}
+.search-button {
+    cursor: pointer;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    color: var(--maize-crayola);
+    background-color: var(--jet);
+}
+.search-input {
+    font-size: 20px;
+    width: 70%;
+    margin: 0 20px;
+}
